@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	_ = leetcode.CanPartition([]int{1, 2, 5})
+	_ = leetcode.Partition("aab")
 }
