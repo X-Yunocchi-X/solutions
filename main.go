@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	_ = leetcode.Partition("aab")
+	_ = leetcode.MinDistance("horse", "ros")
 }

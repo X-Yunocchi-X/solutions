@@ -1,9 +1,5 @@
 package leetcode
 
-func MinWindow(s string, t string) string {
-	return minWindow(s, t)
-}
-
 func minWindow(s string, t string) string {
 	if len(t) > len(s) {
 		return ""
