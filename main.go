@@ -1,9 +1,12 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/X-Yunocchi-X/Solution/leetcode"
 )
 
 func main() {
-	_ = leetcode.MinDistance("horse", "ros")
+	result := leetcode.PartitionLabels("ababcbacadefegdehijhklij")
+	fmt.Println(result)
 }
