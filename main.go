@@ -1,7 +1,12 @@
 package main
 
-import "github.com/X-Yunocchi-X/Solution/leetcode"
+import (
+	"fmt"
+
+	"github.com/X-Yunocchi-X/Solution/leetcode"
+)
 
 func main() {
-	_ = leetcode.FindMin([]int{4, 5, 6, 7, 0, 1, 2})
+	res := leetcode.DecodeString("3[z]2[2[y]pq4[2[jk]e1[f]]]ef")
+	fmt.Println(res)
 }
